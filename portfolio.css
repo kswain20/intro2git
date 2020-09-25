@@ -1,0 +1,102 @@
+body {
+  background-color: #d3cf77;
+  width: 900px;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+main > #about-me {
+  position: relative;
+  top: -20px;
+  display: flex;
+}
+
+#about-me > img {
+  height:100%;
+  position: relative;
+  top: 80px;
+}
+
+.words {
+  margin-left: 10px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.why_web > h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+#name-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+#name-date h2 {
+    margin: 10px
+    font-size: 20px;
+}
+
+time {
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+}
+
+.why_web {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+. why_web > h3 {
+  font-weight: 50;
+  color: #85890E;
+}
+
+#logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figure img {
+  max-height: 150px;
+}
+
+figcaption {
+  background-color: rgba(255,255,255, .5);
+  width: 180px;
+  text-align: center;
+  position: relative;
+  top: -20px;
+  font-size: smaller;
+}
+
+#excited_learn {
+  background-color: rgba(255,255,255, .5);
+}
+
+#excited_learn > #title {
+  font-weight: 900;
+}
+
+footer {
+  color: white ;
+  display: flex;
+  justify-content: center;
+}
